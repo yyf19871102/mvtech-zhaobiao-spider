@@ -1,0 +1,28 @@
+{
+  "name": "mvtech-zhaobiao-spider",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {},
+  "description": "抓取中移动招标信息",
+  "keywords": [
+    "spider",
+    "mvtech",
+    "zhaobiao"
+  ],
+  "author": "yangyufei",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.11",
+    "log4js": "^3.0.6",
+    "moment": "^2.22.2",
+    "node-schedule": "^1.3.0",
+    "nodemailer": "^4.6.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
