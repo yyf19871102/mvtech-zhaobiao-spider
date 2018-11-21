@@ -1,7 +1,9 @@
 # 微智招标爬虫说明文档
 ## 1.部署
 ### 第一步：安装Nodejs环境
-[安装教程](https://www.runoob.com/nodejs/nodejs-install-setup.html)（https://www.runoob.com/nodejs/nodejs-install-setup.html）。*注意：*最好使用已经编译好的包，尽量不要源码安装，有坑。
+[安装教程](https://www.runoob.com/nodejs/nodejs-install-setup.html)
+
+*注意：最好使用已经编译好的包，尽量不要源码安装，有坑。*
 ### 第二步：设置开发环境变量
 	windows：
 	在环境变量中加入NODE_ENV，值为production；
