@@ -69,8 +69,8 @@ switch (ENV) {
 					pass: '0601114034'
 				}
 			},
-			from        : 'yangyf@mvtech.com.cn',
-			to          : 'yangyf@mvtech.com.cn,wuzhou@mvtech.com.cn,zhouhj@mvtech.com.cn,liugx@mvtech.com.cn,zhaoyk@mvtech.com.cn,baihe@mvtech.com.cn,zhangzn@mvtech.com.cn',
+			from        : 'yyf19871102@163.com',
+			to          : 'yyf19871102@163.com,wuzhou@mvtech.com.cn,zhouhj@mvtech.com.cn,liugx@mvtech.com.cn,zhaoyk@mvtech.com.cn,baihe@mvtech.com.cn,zhangzn@mvtech.com.cn',
 		};
 		break;
 	default :
