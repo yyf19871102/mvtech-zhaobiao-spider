@@ -61,12 +61,12 @@ switch (ENV) {
 			keywords    : ['在线', '呼叫中心'],
 			cronTab     : '0 0 9 * * *',
 			transporter : {
-				host: 'smtp.exmail.qq.com',
+				host: 'smtp.163.com',
 				port: 465,
 				secure:true,
 				auth: {
-					user: 'yangyf@mvtech.com.cn',
-					pass: 'yyfYYF0601114034'
+					user: 'yyf19871102@163.com',
+					pass: '0601114034'
 				}
 			},
 			from        : 'yangyf@mvtech.com.cn',
@@ -78,16 +78,16 @@ switch (ENV) {
 			keywords    : ['河南'],
 			cronTab     : '0 0 9 * * *',
 			transporter : {
-				host: 'smtp.exmail.qq.com',
+				host: 'smtp.163.com',
 				port: 465,
 				secure:true,
 				auth: {
-					user: 'yangyf@mvtech.com.cn',
-					pass: 'yyfYYF0601114034'
+					user: 'yyf19871102@163.com',
+					pass: '0601114034'
 				}
 			},
-			from        : 'yangyf@mvtech.com.cn',
-			to          : 'yangyf@mvtech.com.cn',
+			from        : 'yyf19871102@163.com',
+			to          : 'yyf19871102@163.com',
 		};
 }
 
