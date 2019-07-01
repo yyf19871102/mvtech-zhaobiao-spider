@@ -75,6 +75,7 @@ exports.requestUrl = async (options, retryTimes = config.retry, checkSuccess) =>
 				lastErrMsg = '请求uri的校验不通过！';
 			}
 		} catch (err) {
+			console.error(err);
 			retryTimes <= 0 && await Promise.delay(50);
 			lastErrMsg = err.message;
 			err.data = requestOption;

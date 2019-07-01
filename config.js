@@ -20,9 +20,9 @@ let config = {
 		BAD_CONFIG  : {code: 105, msg: '配置错误！'},
 	},
 
-	timeout     : 20000,    // 访问超时限制，单位毫秒
+	timeout     : 240000,    // 访问超时限制，单位毫秒
 	retry       : 3,        // http重试次数
-	concurrency : 10,       // 并发数量
+	concurrency : 1,       // 并发数量
 	taskRetry   : 5,        // 任务重试次数
 
 	// 五种采购信息，可自行添加删除；其中id是该采购信息类型，title是标题；邮件中的顺序按该数组中的顺序排列
@@ -66,7 +66,7 @@ switch (ENV) {
 				secure:true,
 				auth: {
 					user: 'yyf19871102@163.com',
-					pass: '0601114034'
+					pass: '*****'
 				}
 			},
 			from        : 'yyf19871102@163.com',
@@ -83,7 +83,7 @@ switch (ENV) {
 				secure:true,
 				auth: {
 					user: 'yyf19871102@163.com',
-					pass: '0601114034'
+					pass: '*****'
 				}
 			},
 			from        : 'yyf19871102@163.com',
